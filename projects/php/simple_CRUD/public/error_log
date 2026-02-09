@@ -1,0 +1,77 @@
+[17-Oct-2025 18:10:56 UTC] PHP Warning:  require_once(/home/ppatel133/data/connect.php): Failed to open stream: No such file or directory in /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/private/authentication.php on line 19
+[17-Oct-2025 18:10:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ppatel133/data/connect.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/private/authentication.php:19
+Stack trace:
+#0 /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/index.php(2): require_once()
+#1 {main}
+  thrown in /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/private/authentication.php on line 19
+[17-Oct-2025 18:12:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function db_connect() in /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/private/authentication.php:19
+Stack trace:
+#0 /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/index.php(2): require_once()
+#1 {main}
+  thrown in /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/private/authentication.php on line 19
+[17-Oct-2025 18:12:44 UTC] PHP Warning:  require_once(/home/ppatel133/data/connect.php): Failed to open stream: No such file or directory in /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/includes/header.php on line 4
+[17-Oct-2025 18:12:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ppatel133/data/connect.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/includes/header.php:4
+Stack trace:
+#0 /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/index.php(7): include()
+#1 {main}
+  thrown in /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/includes/header.php on line 4
+[17-Oct-2025 18:12:44 UTC] PHP Warning:  require_once(/home/ppatel133/data/connect.php): Failed to open stream: No such file or directory in /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/includes/header.php on line 4
+[17-Oct-2025 18:12:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ppatel133/data/connect.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/includes/header.php:4
+Stack trace:
+#0 /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/index.php(7): include()
+#1 {main}
+  thrown in /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/includes/header.php on line 4
+[17-Oct-2025 18:12:45 UTC] PHP Warning:  require_once(/home/ppatel133/data/connect.php): Failed to open stream: No such file or directory in /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/includes/header.php on line 4
+[17-Oct-2025 18:12:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ppatel133/data/connect.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/includes/header.php:4
+Stack trace:
+#0 /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/index.php(7): include()
+#1 {main}
+  thrown in /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/includes/header.php on line 4
+[17-Oct-2025 18:12:45 UTC] PHP Warning:  require_once(/home/ppatel133/data/connect.php): Failed to open stream: No such file or directory in /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/includes/header.php on line 4
+[17-Oct-2025 18:12:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ppatel133/data/connect.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/includes/header.php:4
+Stack trace:
+#0 /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/index.php(7): include()
+#1 {main}
+  thrown in /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/includes/header.php on line 4
+[17-Oct-2025 18:12:45 UTC] PHP Warning:  require_once(/home/ppatel133/data/connect.php): Failed to open stream: No such file or directory in /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/includes/header.php on line 4
+[17-Oct-2025 18:12:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ppatel133/data/connect.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/includes/header.php:4
+Stack trace:
+#0 /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/index.php(7): include()
+#1 {main}
+  thrown in /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/includes/header.php on line 4
+[17-Oct-2025 18:12:45 UTC] PHP Warning:  require_once(/home/ppatel133/data/connect.php): Failed to open stream: No such file or directory in /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/includes/header.php on line 4
+[17-Oct-2025 18:12:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ppatel133/data/connect.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/includes/header.php:4
+Stack trace:
+#0 /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/index.php(7): include()
+#1 {main}
+  thrown in /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/includes/header.php on line 4
+[17-Oct-2025 18:12:46 UTC] PHP Warning:  require_once(/home/ppatel133/data/connect.php): Failed to open stream: No such file or directory in /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/includes/header.php on line 4
+[17-Oct-2025 18:12:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ppatel133/data/connect.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/includes/header.php:4
+Stack trace:
+#0 /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/index.php(7): include()
+#1 {main}
+  thrown in /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/includes/header.php on line 4
+[17-Oct-2025 18:12:46 UTC] PHP Warning:  require_once(/home/ppatel133/data/connect.php): Failed to open stream: No such file or directory in /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/includes/header.php on line 4
+[17-Oct-2025 18:12:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ppatel133/data/connect.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/includes/header.php:4
+Stack trace:
+#0 /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/index.php(7): include()
+#1 {main}
+  thrown in /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/includes/header.php on line 4
+[17-Oct-2025 18:12:46 UTC] PHP Warning:  require_once(/home/ppatel133/data/connect.php): Failed to open stream: No such file or directory in /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/includes/header.php on line 4
+[17-Oct-2025 18:12:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ppatel133/data/connect.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/includes/header.php:4
+Stack trace:
+#0 /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/index.php(7): include()
+#1 {main}
+  thrown in /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/includes/header.php on line 4
+[17-Oct-2025 18:12:47 UTC] PHP Warning:  require_once(/home/ppatel133/data/connect.php): Failed to open stream: No such file or directory in /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/includes/header.php on line 4
+[17-Oct-2025 18:12:47 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ppatel133/data/connect.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/includes/header.php:4
+Stack trace:
+#0 /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/index.php(7): include()
+#1 {main}
+  thrown in /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/includes/header.php on line 4
+[17-Oct-2025 18:13:25 UTC] PHP Warning:  require_once(/home/ppatel133/data/connect.php): Failed to open stream: No such file or directory in /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/includes/header.php on line 4
+[17-Oct-2025 18:13:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ppatel133/data/connect.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/includes/header.php:4
+Stack trace:
+#0 /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/index.php(7): include()
+#1 {main}
+  thrown in /home/pwhodi44/premwebstudio.ca/projects/php/simple_CRUD/public/includes/header.php on line 4
