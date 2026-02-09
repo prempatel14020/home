@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>PremDev - One Page Portfolio</title>
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600&display=swap"
+      rel="stylesheet">
+
+    <!-- Tailwind (browser build) -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- JavaScripts -->
+    <script src="js/index.js" defer></script>
+    <script src="js/projects.js" defer></script>
+
+
+
+  </head>
+
+  <body class="px-6">
+    <!-- NAVBAR -->
+    <header
+      class="fixed inset-x-0 top-0 z-50 bg-[rgba(7,17,43,0.6)] backdrop-blur border-b border-[rgba(255,106,61,0.06)]">
+      <div class="max-w-6xl mx-auto px-6 py-3 flex items-center justify-between">
+        <a href="#hero" class="flex items-center gap-3 h-10">
+          <div class="w-10 rounded-md ">
+            <img src="img/logo.png" alt="logo fox">
+          </div>
+          <span class="font-playfair text-xl h-10 font-semibold text-[var(--primary)]">PremDev</span>
+        </a>
+
+        <nav class="hidden md:flex gap-6 items-center text-sm font-medium text-[var(--muted)]">
+          <a href="#hero" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#testimonials" class="nav-link">Testimonials</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <div class="flex items-center gap-3">
+          <a href="resume/Prem-Patel-Resume.pdf" target="_blank" download
+            class=" md:inline-block px-4 py-2 rounded-full bg-[var(--primary)] text-[var(--bg)] font-semibold hover:opacity-95">
+            Resume
+          </a>
+          <button id="navToggle" class="md:hidden p-2"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor">
+              <path d="M3 12h18M3 6h18M3 18h18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+            </svg></button>
+        </div>
+      </div>
+
+      <!-- mobile menu -->
+      <div id="mobileNav" class="hidden md:hidden border-t border-[rgba(255,106,61,0.03)]">
+        <div class="px-6 py-4 flex flex-col gap-3">
+          <a href="#hero" class="nav-mobile">Home</a>
+          <a href="#about" class="nav-mobile">About</a>
+          <a href="#skills" class="nav-mobile">Skills</a>
+          <a href="#projects" class="nav-mobile">Projects</a>
+          <a href="#testimonials" class="nav-mobile">Testimonials</a>
+          <a href="#contact" class="nav-mobile">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="pt-20">
+      <!-- HERO -->
+      <section id="hero" class="max-w-6xl mx-auto px-6 lg:px-0 py-14 lg:py-24">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+          <div class="space-y-6">
+
+            <h1 class="text-4xl md:text-5xl font-bold text-[var(--primary)] leading-tight">I’m Prem Patel <br> Web
+              Developer &amp; Designer</h1>
+            <p class="text-lg text-[var(--muted)] max-w-xl">I design and code accessible, performant websites with a
+              focus on clarity, user experience, and clean front-end engineering. I love turning ideas into polished
+              digital products that people enjoy using.</p>
+
+            <div class="flex gap-3 items-center">
+              <a href="#projects"
+                class="px-5 py-3 rounded-full bg-[var(--primary)] text-[var(--bg)] font-semibold shadow">View
+                projects</a>
+              <a href="#contact" class="px-5 py-3 rounded-full border border-[rgba(255,255,255,0.06)]">Contact</a>
+            </div>
+
+            <div class="flex gap-4 pt-4 text-sm text-[var(--muted)]">
+
+              <div>Currently In <strong class="text-[var(--primary)]">Edmonton</strong></div>
+
+            </div>
+          </div>
+
+          <div class="flex justify-center lg:justify-end">
+            <div class="hero-visual p-4 shadow-lg rounded-2xl max-w-[420px]">
+              <img src="img/portrait.png" alt="Prem Patel portrait" class="portrait w-72 h-72 lg:w-80 lg:h-80">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT / MISSION -->
+      <section id="about" class="max-w-4xl mx-auto px-6 py-12 reveal">
+        <div class="bg-[var(--card)] p-8 rounded-2xl shadow-md">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
+            <div class="md:col-span-2">
+              <h2 class="text-2xl md:text-3xl font-bold text-[var(--primary)]">About &amp; Mission</h2>
+              <p class="mt-4 text-[var(--muted)]">My mission is to build meaningful digital experiences that are
+                accessible, fast, and delightful. I pair thoughtful design with practical engineering to deliver
+                products that solve real user problems. I enjoy collaborating with teams and learning new tools.
+              </p>
+
+              <ul class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-[var(--muted)]">
+                <li>🔧 Modern front-end (React, Tailwind)</li>
+                <li>🎨 UI &amp; prototyping (Figma)</li>
+                <li>📐 Accessibility-minded</li>
+                <li>⚡ Performance-focused</li>
+              </ul>
+            </div>
+
+            <div class="p-4 bg-[rgba(255,106,61,0.04)] rounded-lg text-center">
+              <p class="font-semibold text-[var(--primary)]">Quick facts</p>
+              <p class="mt-2 text-[var(--muted)] text-sm">Grew from hobbyist to student developer at NAIT. Loves
+                experimenting with small UX micro-interactions.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="max-w-6xl mx-auto px-6 py-12 reveal">
+        <h3 class="text-2xl md:text-3xl font-bold text-[var(--primary)] text-center">Skills & Tools</h3>
+        <p class="text-center text-[var(--muted)] mt-2">A mixture of design and front-end tools I use daily.</p>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+          <!-- Front-End -->
+          <div class="bg-[var(--card)] p-6 rounded-xl">
+            <h4 class="font-semibold mb-4">Web Development</h4>
+            <div class="flex flex-wrap gap-3 text-[var(--primary)]">
+              <span>HTML & CSS</span>
+              <span>JavaScript</span>
+              <span>React / Tailwind</span>
+              <span>WordPress</span>
+              <span>PHP</span>
+
+
+            </div>
+          </div>
+
+          <!-- Design -->
+          <div class="bg-[var(--card)] p-6 rounded-xl">
+            <h4 class="font-semibold mb-4">Design</h4>
+            <div class="flex flex-wrap gap-3 text-[var(--primary)]">
+              <span>UI / Prototyping</span>
+              <span>Branding</span>
+              <span>Figma</span>
+              <span>Copy & Tone</span>
+            </div>
+          </div>
+
+          <!-- Growth -->
+          <div class="bg-[var(--card)] p-6 rounded-xl">
+            <h4 class="font-semibold mb-4">Growth</h4>
+            <div class="flex flex-wrap gap-3 text-[var(--primary)]">
+              <span>Learning & Research</span>
+              <span>Collaboration</span>
+              <span>Problem Solving</span>
+              <span>Photography</span>
+              <span>Digital Media Management</span>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- PROJECTS -->
+      <section id="projects" class="py-20  text-orange-600 px-6 max-w-7xl mx-auto">
+        <h2 class="text-4xl md:text-5xl font-bold text-center mb-12 reveal">
+          My Projects
+        </h2>
+
+        <div id="projectsContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Projects will be loaded dynamically from JSON -->
+        </div>
+      </section>
+
+
+      <!-- TESTIMONIALS -->
+      <section id="testimonials" class="max-w-4xl mx-auto px-6 py-12 reveal">
+        <h3 class="text-2xl md:text-3xl font-bold text-[var(--primary)] text-center">What people say</h3>
+        <div class="mt-6 bg-[var(--card)] p-6 rounded-xl shadow-md">
+          <div id="testWrap" class="min-h-[120px] flex flex-col items-center justify-center">
+            <p id="quote" class="quote text-center">"Prem ran a clear and engaging workshop that helped the whole class
+              understand front-end basics quickly."</p>
+            <p id="quoteAuthor" class="mt-4 text-sm text-[var(--muted)]">- Professor, NAIT</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="max-w-4xl mx-auto px-6 py-12 reveal">
+        <h3 class="text-2xl md:text-3xl font-bold text-[var(--primary)] text-center">Get in touch</h3>
+        <p class="text-center text-[var(--muted)] mt-2">I’m open to small freelance work, collaboration, and mentoring.
+        </p>
+
+        <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="bg-[var(--card)] p-6 rounded-xl">
+            <h4 class="font-semibold">Email</h4>
+            <p class="text-[var(--muted)] mt-2">prempatel@premwebstudio.ca</p>
+
+            <h4 class="font-semibold mt-4">Location</h4>
+            <p class="text-[var(--muted)] mt-2">Edmonton, AB</p>
+
+            <div class="flex gap-3 mt-4">
+              <a href="https://www.linkedin.com/in/prem-patel-918792288/" target="_blank"
+                class="px-3 py-2 rounded bg-[rgba(255,255,255,0.03)]">LinkedIn</a>
+              <a href="https://github.com/prempatel14020" target="_blank"
+                class="px-3 py-2 rounded bg-[rgba(255,255,255,0.03)]">GitHub</a>
+            </div>
+          </div>
+
+          <form id="contactForm" class="bg-[var(--card)] p-6 rounded-xl" onsubmit="handleContact(event)">
+            <div class="grid grid-cols-1 gap-3">
+              <input required name="name" placeholder="Your name"
+                class="p-3 bg-transparent border border-[rgba(255,255,255,0.04)] rounded" />
+              <input required type="email" name="email" placeholder="Your email"
+                class="p-3 bg-transparent border border-[rgba(255,255,255,0.04)] rounded" />
+              <textarea required name="message" rows="4" placeholder="Message"
+                class="p-3 bg-transparent border border-[rgba(255,255,255,0.04)] rounded"></textarea>
+              <button type="submit" class="px-4 py-3 rounded bg-[var(--primary)] text-[var(--bg)] font-semibold">Send
+                message</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer class="mt-12 border-t border-[rgba(255,255,255,0.03)] py-8 text-center text-sm text-[var(--muted)]">
+        <div class="max-w-6xl mx-auto px-6">Built with creativity, code, and coffee ☕ - &copy; 2025 Prem
+          Patel.
+        </div>
+      </footer>
+    </main>
+
+    <!-- MODAL for project preview -->
+    <div id="projModal" class="fixed inset-0 z-60 hidden items-center justify-center">
+      <div class="absolute inset-0 modal-backdrop"></div>
+      <div class="relative max-w-3xl w-full mx-4 bg-[var(--card)] rounded-xl p-6 z-70">
+        <button id="closeModal" class="absolute right-4 top-4 text-[var(--muted)]">✕</button>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div id="modalImageWrap" class="rounded overflow-hidden"><img id="modalImg" src="" alt=""
+              class="w-full h-48 object-cover"></div>
+          <div>
+            <h4 id="modalTitle" class="text-xl font-bold text-[var(--primary)]"></h4>
+            <p id="modalDesc" class="mt-2 text-[var(--muted)]"></p>
+            <p id="modalTech" class="mt-4 text-sm text-[var(--muted)]"></p>
+            <div class="mt-6 flex gap-3">
+              <a id="modalLive" class="px-3 py-2 rounded bg-[var(--primary)] text-[var(--bg)] hidden">Open</a>
+              <a id="modalCode" class="px-3 py-2 rounded bg-[rgba(255,255,255,0.03)] hidden">Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- back to top -->
+    <button id="toTop" class="to-top">↑</button>
+
+
+
+  </body>
+
+</html>
