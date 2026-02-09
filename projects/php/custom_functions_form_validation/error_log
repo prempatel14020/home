@@ -1,0 +1,48 @@
+[17-Oct-2025 18:08:55 UTC] PHP Warning:  require(/home/ppatel133/data/valitron/src/Valitron/Validator.php): Failed to open stream: No such file or directory in /home/pwhodi44/premwebstudio.ca/projects/php/custom_functions_form_validation/public/validation/validation.php on line 3
+[17-Oct-2025 18:08:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ppatel133/data/valitron/src/Valitron/Validator.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/pwhodi44/premwebstudio.ca/projects/php/custom_functions_form_validation/public/validation/validation.php:3
+Stack trace:
+#0 /home/pwhodi44/premwebstudio.ca/projects/php/custom_functions_form_validation/index.php(4): require()
+#1 {main}
+  thrown in /home/pwhodi44/premwebstudio.ca/projects/php/custom_functions_form_validation/public/validation/validation.php on line 3
+[17-Oct-2025 18:09:15 UTC] PHP Warning:  require(/home/ppatel133/data/valitron/src/Valitron/Validator.php): Failed to open stream: No such file or directory in /home/pwhodi44/premwebstudio.ca/projects/php/custom_functions_form_validation/public/validation/validation.php on line 3
+[17-Oct-2025 18:09:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ppatel133/data/valitron/src/Valitron/Validator.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/pwhodi44/premwebstudio.ca/projects/php/custom_functions_form_validation/public/validation/validation.php:3
+Stack trace:
+#0 /home/pwhodi44/premwebstudio.ca/projects/php/custom_functions_form_validation/index.php(4): require()
+#1 {main}
+  thrown in /home/pwhodi44/premwebstudio.ca/projects/php/custom_functions_form_validation/public/validation/validation.php on line 3
+[17-Oct-2025 18:09:28 UTC] PHP Warning:  require(/home/ppatel133/data/valitron/src/Valitron/Validator.php): Failed to open stream: No such file or directory in /home/pwhodi44/premwebstudio.ca/projects/php/custom_functions_form_validation/public/validation/validation.php on line 3
+[17-Oct-2025 18:09:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ppatel133/data/valitron/src/Valitron/Validator.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/pwhodi44/premwebstudio.ca/projects/php/custom_functions_form_validation/public/validation/validation.php:3
+Stack trace:
+#0 /home/pwhodi44/premwebstudio.ca/projects/php/custom_functions_form_validation/index.php(4): require()
+#1 {main}
+  thrown in /home/pwhodi44/premwebstudio.ca/projects/php/custom_functions_form_validation/public/validation/validation.php on line 3
+[17-Oct-2025 18:09:28 UTC] PHP Warning:  require(/home/ppatel133/data/valitron/src/Valitron/Validator.php): Failed to open stream: No such file or directory in /home/pwhodi44/premwebstudio.ca/projects/php/custom_functions_form_validation/public/validation/validation.php on line 3
+[17-Oct-2025 18:09:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ppatel133/data/valitron/src/Valitron/Validator.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/pwhodi44/premwebstudio.ca/projects/php/custom_functions_form_validation/public/validation/validation.php:3
+Stack trace:
+#0 /home/pwhodi44/premwebstudio.ca/projects/php/custom_functions_form_validation/index.php(4): require()
+#1 {main}
+  thrown in /home/pwhodi44/premwebstudio.ca/projects/php/custom_functions_form_validation/public/validation/validation.php on line 3
+[17-Oct-2025 18:09:35 UTC] PHP Warning:  require(/home/ppatel133/data/valitron/src/Valitron/Validator.php): Failed to open stream: No such file or directory in /home/pwhodi44/premwebstudio.ca/projects/php/custom_functions_form_validation/public/validation/validation.php on line 3
+[17-Oct-2025 18:09:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ppatel133/data/valitron/src/Valitron/Validator.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/pwhodi44/premwebstudio.ca/projects/php/custom_functions_form_validation/public/validation/validation.php:3
+Stack trace:
+#0 /home/pwhodi44/premwebstudio.ca/projects/php/custom_functions_form_validation/index.php(4): require()
+#1 {main}
+  thrown in /home/pwhodi44/premwebstudio.ca/projects/php/custom_functions_form_validation/public/validation/validation.php on line 3
+[17-Oct-2025 18:09:40 UTC] PHP Warning:  require(/home/ppatel133/data/valitron/src/Valitron/Validator.php): Failed to open stream: No such file or directory in /home/pwhodi44/premwebstudio.ca/projects/php/custom_functions_form_validation/public/validation/validation.php on line 3
+[17-Oct-2025 18:09:40 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ppatel133/data/valitron/src/Valitron/Validator.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/pwhodi44/premwebstudio.ca/projects/php/custom_functions_form_validation/public/validation/validation.php:3
+Stack trace:
+#0 /home/pwhodi44/premwebstudio.ca/projects/php/custom_functions_form_validation/index.php(4): require()
+#1 {main}
+  thrown in /home/pwhodi44/premwebstudio.ca/projects/php/custom_functions_form_validation/public/validation/validation.php on line 3
+[17-Oct-2025 18:10:44 UTC] PHP Warning:  require(/home/ppatel133/data/valitron/src/Valitron/Validator.php): Failed to open stream: No such file or directory in /home/pwhodi44/premwebstudio.ca/projects/php/custom_functions_form_validation/public/validation/validation.php on line 3
+[17-Oct-2025 18:10:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ppatel133/data/valitron/src/Valitron/Validator.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/pwhodi44/premwebstudio.ca/projects/php/custom_functions_form_validation/public/validation/validation.php:3
+Stack trace:
+#0 /home/pwhodi44/premwebstudio.ca/projects/php/custom_functions_form_validation/index.php(4): require()
+#1 {main}
+  thrown in /home/pwhodi44/premwebstudio.ca/projects/php/custom_functions_form_validation/public/validation/validation.php on line 3
+[17-Oct-2025 18:13:21 UTC] PHP Warning:  require(/home/ppatel133/data/valitron/src/Valitron/Validator.php): Failed to open stream: No such file or directory in /home/pwhodi44/premwebstudio.ca/projects/php/custom_functions_form_validation/public/validation/validation.php on line 3
+[17-Oct-2025 18:13:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ppatel133/data/valitron/src/Valitron/Validator.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/pwhodi44/premwebstudio.ca/projects/php/custom_functions_form_validation/public/validation/validation.php:3
+Stack trace:
+#0 /home/pwhodi44/premwebstudio.ca/projects/php/custom_functions_form_validation/index.php(4): require()
+#1 {main}
+  thrown in /home/pwhodi44/premwebstudio.ca/projects/php/custom_functions_form_validation/public/validation/validation.php on line 3

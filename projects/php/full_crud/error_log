@@ -1,0 +1,24 @@
+[17-Oct-2025 18:10:58 UTC] PHP Warning:  require_once(/home/ppatel133/data/connect.php): Failed to open stream: No such file or directory in /home/pwhodi44/premwebstudio.ca/projects/php/full_crud/private/authentication.php on line 19
+[17-Oct-2025 18:10:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ppatel133/data/connect.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/pwhodi44/premwebstudio.ca/projects/php/full_crud/private/authentication.php:19
+Stack trace:
+#0 /home/pwhodi44/premwebstudio.ca/projects/php/full_crud/index.php(2): require_once()
+#1 {main}
+  thrown in /home/pwhodi44/premwebstudio.ca/projects/php/full_crud/private/authentication.php on line 19
+[17-Oct-2025 18:11:20 UTC] PHP Warning:  require_once(/home/ppatel133/data/connect.php): Failed to open stream: No such file or directory in /home/pwhodi44/premwebstudio.ca/projects/php/full_crud/private/authentication.php on line 19
+[17-Oct-2025 18:11:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ppatel133/data/connect.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/pwhodi44/premwebstudio.ca/projects/php/full_crud/private/authentication.php:19
+Stack trace:
+#0 /home/pwhodi44/premwebstudio.ca/projects/php/full_crud/index.php(2): require_once()
+#1 {main}
+  thrown in /home/pwhodi44/premwebstudio.ca/projects/php/full_crud/private/authentication.php on line 19
+[17-Oct-2025 18:12:15 UTC] PHP Warning:  require_once(/home/ppatel133/data/connect.php): Failed to open stream: No such file or directory in /home/pwhodi44/premwebstudio.ca/projects/php/full_crud/private/authentication.php on line 19
+[17-Oct-2025 18:12:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ppatel133/data/connect.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/pwhodi44/premwebstudio.ca/projects/php/full_crud/private/authentication.php:19
+Stack trace:
+#0 /home/pwhodi44/premwebstudio.ca/projects/php/full_crud/index.php(2): require_once()
+#1 {main}
+  thrown in /home/pwhodi44/premwebstudio.ca/projects/php/full_crud/private/authentication.php on line 19
+[17-Oct-2025 18:13:27 UTC] PHP Warning:  require_once(/home/ppatel133/data/connect.php): Failed to open stream: No such file or directory in /home/pwhodi44/premwebstudio.ca/projects/php/full_crud/private/authentication.php on line 19
+[17-Oct-2025 18:13:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/ppatel133/data/connect.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/pwhodi44/premwebstudio.ca/projects/php/full_crud/private/authentication.php:19
+Stack trace:
+#0 /home/pwhodi44/premwebstudio.ca/projects/php/full_crud/index.php(2): require_once()
+#1 {main}
+  thrown in /home/pwhodi44/premwebstudio.ca/projects/php/full_crud/private/authentication.php on line 19
